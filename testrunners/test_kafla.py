@@ -1,11 +1,8 @@
-# kafka_example.py
+
 from kafka import KafkaProducer, KafkaConsumer
 
-
 class KafkaConfig:
-    """
-    管理 Kafka 的配置信息，如服务器地址、Topic 等
-    """
+
     def __init__(self, bootstrap_servers='localhost:9092', topic='test_topic'):
         self._bootstrap_servers = bootstrap_servers
         self._topic = topic
@@ -20,17 +17,13 @@ class KafkaConfig:
 
 
 class MyProducer:
-    """
-    用于发送消息到 Kafka 的生产者
-    """
+
     def __init__(self, config: KafkaConfig):
         self.producer = KafkaProducer(bootstrap_servers=config.bootstrap_servers)
         self.topic = config.topic
 
     def send_message(self, message: str):
-        """
-        发送消息到指定的 Kafka Topic
-        """
+
         self.producer.send(self.topic, value=message.encode('utf-8'))
         # 同步等待消息发送完成（可选）
         self.producer.flush()
@@ -38,9 +31,7 @@ class MyProducer:
 
 
 class MyConsumer:
-    """
-    用于从 Kafka 消费消息并打印的消费者
-    """
+
     def __init__(self, config: KafkaConfig):
         self.consumer = KafkaConsumer(
             config.topic,
@@ -51,18 +42,14 @@ class MyConsumer:
         )
 
     def consume_messages(self):
-        """
-        不断轮询 Kafka 中的消息，并打印出来
-        """
+
         print(f"开始消费 topic: {self.consumer.subscription()}")
         for msg in self.consumer:
             print(f"收到消息: {msg.value.decode('utf-8')}")
 
 
 def main():
-    """
-    演示如何使用上述三个类进行 Kafka 消息的生产与消费
-    """
+
     # 初始化 Kafka 配置
     config = KafkaConfig(bootstrap_servers='localhost:9092', topic='test_topic')
 
