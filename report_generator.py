@@ -2,7 +2,6 @@ import json
 import argparse
 import openai
 import os
-import time
 from kafka import KafkaConsumer
 
 openai.api_key = os.getenv("OPENAI_API_KEY")

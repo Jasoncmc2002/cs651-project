@@ -46,7 +46,7 @@ class KafkaPartitionQuery:
             # Use assign to subscribe only to the specified partition
             # Construct a JSON string, e.g. '{"investing": [0]}' or '{"investing": [1]}'
             assign_option = json.dumps({self.topic: [self.partition]})
-            print(f"[INFO] Subscribe to a Topic using assign() '{self.topic}' 的分区 {self.partition}.")
+            print(f"[INFO] Subscribe to a Topic using assign() '{self.topic}' partition {self.partition}.")
             kafka_df = (
                 self.spark.readStream
                 .format("kafka")

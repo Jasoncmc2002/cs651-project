@@ -5,7 +5,7 @@ import praw
 from kafka import KafkaProducer
 
 def main():
-    # 1. 使用 argparse 获取命令行参数
+    # 1. Getting command line arguments with argparse
     parser = argparse.ArgumentParser(description="Reddit to Kafka producer")
     parser.add_argument("--subreddit", type=str, default="WallStreetBets", help="Name of the subreddit to crawl")
     parser.add_argument("--topic_name", type=str, default="investing", help="Name of the Kafka topic to produce messages to")
@@ -13,7 +13,7 @@ def main():
     parser.add_argument("--keyword", type=str, required=False, help="Keyword to search for")
     args = parser.parse_args()
 
-    # 2. 配置 Reddit API
+    # 2. Configure Reddit API
     reddit = praw.Reddit(
         client_id="nBROxkqXX7OBrfnBFPxLLw",
         client_secret="drO4H7CGeSg7XqTrfrTseCeqgAmGMA",
@@ -21,13 +21,13 @@ def main():
         username="cs651"
     )
 
-    # 3. 获取 subreddit、topic 名称，以及抓取数量 limit
+    # 3. Get the name of the subreddit, topic, and the number of crawls limit
     subreddit = reddit.subreddit(args.subreddit)
     topic_name = args.topic_name
     limit = args.limit
     keyword = args.keyword if args.keyword else ""
 
-    # 4. 配置 Kafka Producer
+    # 4. Configure Kafka Producer
     producer = KafkaProducer(
         bootstrap_servers=["localhost:9092"],
         value_serializer=lambda v: json.dumps(v).encode("utf-8")
@@ -35,7 +35,7 @@ def main():
 
     processed_ids = set()
 
-    # 5. 主循环：从指定 subreddit 中抓取内容并发送到 Kafka
+    # 5. Main loop: grab content from a given subreddit and send it to Kafka.
     try:
         while True:
             if not keyword:
