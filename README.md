@@ -1,6 +1,6 @@
 # cs651-project
 
-Datasource: https://www.kaggle.com/datasets/gpreda/reddit-wallstreetsbets-posts/data
+Static datasource: https://www.kaggle.com/datasets/gpreda/reddit-wallstreetsbets-posts/data
 
 Before running the code, especially spark_streaming_reddit.py,
 make sure to have the following libraries installed in your spark/jars directory:
