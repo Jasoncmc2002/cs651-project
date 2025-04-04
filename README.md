@@ -1,8 +1,8 @@
 # cs651-project
 
-# Datasource: https://www.kaggle.com/datasets/gpreda/reddit-wallstreetsbets-posts/data
+Datasource: https://www.kaggle.com/datasets/gpreda/reddit-wallstreetsbets-posts/data
 
-# Before running the code, especially spark_streaming_reddit.py,
+Before running the code, especially spark_streaming_reddit.py,
 # make sure to have the following libraries installed in your spark/jars directory:
 
 # spark-sql-kafka-0-10_2.12-3.2.0.jar
