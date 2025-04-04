@@ -10,3 +10,10 @@ make sure to have the following libraries installed in your spark/jars directory
     spark-token-provider-kafka-0-10_2.12-3.2.0.jar
     spark-streaming-kafka-0-10_2.12-3.1.1.jar
 
+You also should configure your openai api key in your local environment and name it as OPENAI_API_KEY.
+
+
+
+
+**Disclaimer: This report does not constitute actual financial advice**
+
