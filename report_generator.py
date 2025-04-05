@@ -61,7 +61,7 @@ def consume_and_aggregate(topic):
             if messages:
                 for tp, msgs in messages.items():
                     for message in msgs:
-                        data = message.value  # 例如：{"Apple": {...}, "Google": {...}}
+                        data = message.value  # For example：{"Apple": {...}, "Google": {...}}
                         for company, info in data.items():
                             if company not in global_state:
                                 global_state[company] = {
