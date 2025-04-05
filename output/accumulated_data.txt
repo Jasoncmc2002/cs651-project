@@ -1,0 +1,352 @@
+
+========== ACCUMULATED REPORT (ALL BATCHES) WITH WEIGHTING ==========
+Company: NVDA
+  Comment numbers: 60
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 30.820685223057886, 'positive': 45.63886900942217}
+  Investment Advice: Suggestions: Buy
+
+Company: LFG
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 0.0, 'positive': 25.141600412272414}
+  Investment Advice: Suggestions: Buy
+
+Company: Nvidia Blackwell Chip Sets Record
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 0.0, 'positive': 22.819434504711086}
+  Investment Advice: Suggestions: Buy
+
+Company: Micron
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 0.0, 'positive': 21.67408739684848}
+  Investment Advice: Suggestions: Buy
+
+Company: Trump
+  Comment numbers: 182
+  Weighted Sentiment counts: {'negative': 75.5847530857848, 'neutral': 569.1457665318379, 'positive': 2.114664118949327}
+  Investment Advice: Suggestions: Hold
+
+Company: 😔
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 21.69782210596935, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: MSTR
+  Comment numbers: 40
+  Weighted Sentiment counts: {'negative': 40.67913580871482, 'neutral': 0.0, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: Apple
+  Comment numbers: 59
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 35.62205397651928, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Gainz
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 21.602447943213132, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Profit Off the Trade War
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 42.36510464011467, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: the Quadrilateral Security Dialogue
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 42.36510464011467, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: contracts](https://www.defense.gov/News/Releases/Release/Article/2941793/dod-awards-35-million
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 42.36510464011467, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Trump](https://www.theguardian.com/us-news/2025/jan/20
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 42.36510464011467, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: quickl](https://investors.mpmaterials.com
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 42.36510464011467, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: TX
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 42.36510464011467, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: HSA
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 42.36510464011467, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: UPS
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 42.36510464011467, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Uranium and Titanium
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 42.36510464011467, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Lithium Battery & Recycling
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 42.36510464011467, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: y’all\~
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 42.36510464011467, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: SPY
+  Comment numbers: 144
+  Weighted Sentiment counts: {'negative': 24.706509453200663, 'neutral': 118.81689100396801, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: ITM
+  Comment numbers: 88
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 36.06741202199026, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Microsoft
+  Comment numbers: 52
+  Weighted Sentiment counts: {'negative': 37.20192628482527, 'neutral': 0.0, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: Rethinking Its Server Farm Strategy
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 37.20192628482527, 'neutral': 0.0, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: Microsoft Corp.
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 37.20192628482527, 'neutral': 0.0, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: YOLO
+  Comment numbers: 44
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 63.72947095201109, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Semis
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 20.682636228957605, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: META
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 38.23758689274085, 'neutral': 0.0, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: Meta and Goog
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 38.23758689274085, 'neutral': 0.0, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: the Reciprocal Tariff
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 74.05916407105526, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: CAD
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 19.8672603890201, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: https://preview.redd.it/cc0i7nlzthse1.png?width=652&format=png&auto=webp&s=30f7ede4962e236a1283c7e60e20c4c19bc22a73
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 19.8672603890201, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Quantum Computing
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 23.94580466840215, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Quantum
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 23.94580466840215, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Reuters
+  Comment numbers: 117
+  Weighted Sentiment counts: {'negative': 36.96152313128413, 'neutral': 342.69003435836555, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: White House
+  Comment numbers: 68
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 171.57078916305954, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: the European Union
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 73.38050490916167, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: EV
+  Comment numbers: 41
+  Weighted Sentiment counts: {'negative': 73.92304626256826, 'neutral': 0.0, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: Cantor Fitzgerald
+  Comment numbers: 15
+  Weighted Sentiment counts: {'negative': 36.96152313128413, 'neutral': 0.0, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: the Autism Society
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 21.759195278961176, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: NASDAQ
+  Comment numbers: 71
+  Weighted Sentiment counts: {'negative': 158.65063706583894, 'neutral': 0.0, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: Lehman
+  Comment numbers: 40
+  Weighted Sentiment counts: {'negative': 158.65063706583894, 'neutral': 0.0, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: DXY
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 47.3066636371986, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Fed
+  Comment numbers: 42
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 94.6133272743972, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: McDonalds
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 23.680399682356832, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Kelloggs
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 23.701884573718058, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: AI
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 23.766283899684563, 'neutral': 0.0, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: Forbes
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 75.68088231632998, 'neutral': 0.0, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: Bear
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 75.44271645674976, 'neutral': 0.0, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: COVID-19
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 75.44271645674976, 'neutral': 0.0, 'positive': 0.0}
+  Investment Advice: Suggestions: Sell
+
+Company: Elon
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 32.88060940721715, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: DOGE
+  Comment numbers: 72
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 86.97665631244541, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: FOMO
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 45.60885730478792, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: EU Commission
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 71.14322081647974, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: EU
+  Comment numbers: 367
+  Weighted Sentiment counts: {'negative': 73.59512012359399, 'neutral': 1138.2915330636758, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: El País](https://elpais.com/internacional/2025-03-31
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 71.14322081647974, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: The European Union
+  Comment numbers: 40
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 142.28644163295948, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: El País
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 71.14322081647974, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: the European Commission
+  Comment numbers: 40
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 142.28644163295948, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: war](https://newsukraine.rbc.ua
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 71.14322081647974, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Nike
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 73.9341083809369, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Pre and Post Chart Reveal
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 23.143434525256424, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Nasdaq
+  Comment numbers: 69
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 28.204008504960804, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: https://www.reddit.com/r/wallstreetbets/comments/1jlulf8/yolo\_100k\_on\_tqqq\_63\_puts\_328\_i\_will\_cure\_autism/](https://www.reddit.com/r/wallstreetbets/comments/1jlulf8/yolo_100k_on_tqqq_63_puts_328_i_will_cure_autism/
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 28.204008504960804, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Amazon
+  Comment numbers: 68
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 195.92902454004215, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: TikTok
+  Comment numbers: 84
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 261.2386993867229, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: New York Times
+  Comment numbers: 18
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 65.30967484668072, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: the New York Times
+  Comment numbers: 29
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 65.30967484668072, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: ByteDance
+  Comment numbers: 18
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 65.30967484668072, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+
+Company: Congress
+  Comment numbers: 20
+  Weighted Sentiment counts: {'negative': 0.0, 'neutral': 8.067627019038582, 'positive': 0.0}
+  Investment Advice: Suggestions: Hold
+

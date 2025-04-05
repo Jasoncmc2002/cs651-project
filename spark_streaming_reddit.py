@@ -20,9 +20,6 @@ producer_conf = {
 }
 import argparse
 import json
-import findspark
-
-findspark.init(r"E:\downloads\spark-3.4.4-bin-hadoop3")
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import from_json, col
@@ -38,14 +35,15 @@ class KafkaPartitionQuery:
         """
         self.bootstrap_servers=producer_conf["bootstrap.servers"]
         self.topic = topic
-        self.partition = partition
+        self.partition =  [int(p.strip()) for p in partition.split(",")] #Dynamic obtain partition number list
         self.spark = SparkSession.builder.appName("KafkaPartitionQuery").getOrCreate()
 
     def start(self):
         if self.partition is not None:
             # Use assign to subscribe only to the specified partition
             # Construct a JSON string, e.g. '{"investing": [0]}' or '{"investing": [1]}'
-            assign_option = json.dumps({self.topic: [self.partition]})
+
+            assign_option = json.dumps({self.topic: self.partition})
             print(f"[INFO] Subscribe to a Topic using assign() '{self.topic}' partition {self.partition}.")
             kafka_df = (
                 self.spark.readStream
@@ -254,7 +252,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Spark Structured Streaming Kafka consumer with weighted sentiment analysis.")
     parser.add_argument("--topic", type=str, default="investing", help="Kafka topic to subscribe to.")
     parser.add_argument("--group_id", type=str, default="reddit-consumer-group", help="Kafka consumer group id.")
-    parser.add_argument("--partition", type=int, default=None,help="Optional: specify partition number to assign (e.g. 0 or 1)")
+    parser.add_argument("--partition", type=int, default=None,help="Optional: specify partition numbers to assign")
     args = parser.parse_args()
 
     app = KafkaPartitionQuery(args.topic, args.partition)
