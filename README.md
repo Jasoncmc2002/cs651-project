@@ -62,7 +62,6 @@ The kafka location is "localhost:9092" if you configure it in a different way, p
 at the same time. or just run `python spark_streaming_reddit.py` to just run 1 partition at the same time.
 7. Run the final consumer `python report_generator.py` to get the final result in the output directory.
 
-
 You also should configure your openai api key in your local environment and name it as **OPENAI_API_KEY**.
 
 
