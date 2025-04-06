@@ -2,6 +2,10 @@
 
 Author: Mingchen Cai
 
+
+Demo video:(run the whole system with default options)
+https://www.youtube.com/watch?v=UGnoctdpgPE
+
 Static datasource (in directory archive): https://www.kaggle.com/datasets/gpreda/reddit-wallstreetsbets-posts/data
 Dynamic datasource: Reddit API
 
