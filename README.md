@@ -57,7 +57,7 @@ The kafka location is "localhost:9092" if you configure it in a different way, p
 `bin/kafka-topics.sh --create --topic reddit --bootstrap-server localhost:9092 --replication-factor 1 --partitions 2`
 4. Create a consumer group named "investing" with 1 partition:
 `bin/kafka-consumer-groups.sh --bootstrap-server localhost:9092 --create --group investing --topic reddit --partitions 1`
-5. Run the producers: `python reddit_scrapper.py"
+5. Run the producers:dynamic data: `python reddit_scrapper.py` static data: `python static_reddit_scrapper.py` to get the data from Reddit and send it to Kafka.
 6. Run the consumers: `python spark_streaming_reddit.py --partition 0` and `python spark_streaming_reddit.py --partition 1`
 at the same time. or just run `python spark_streaming_reddit.py` to just run 1 partition at the same time.
 7. Run the final consumer `python report_generator.py` to get the final result in the output directory.

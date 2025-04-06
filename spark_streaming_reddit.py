@@ -35,7 +35,10 @@ class KafkaPartitionQuery:
         """
         self.bootstrap_servers=producer_conf["bootstrap.servers"]
         self.topic = topic
-        self.partition =  [int(p.strip()) for p in partition.split(",")] #Dynamic obtain partition number list
+        if isinstance(partition, int):
+            self.partition = [partition]
+        else:
+            self.partition = [int(p.strip()) for p in partition.split(",")] #Dynamic obtain partition number list
         self.spark = SparkSession.builder.appName("KafkaPartitionQuery").getOrCreate()
 
     def start(self):
