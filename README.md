@@ -2,9 +2,14 @@
 
 Author: Mingchen Cai
 
+This is final project by Mingchen Cai for cs651 winter 2025, University of Waterloo.
 
 Demo video:(run the whole system with default options)
 https://www.youtube.com/watch?v=UGnoctdpgPE
+
+If you have trouble running the code, or access to the video, please contact me via email:
+cmc2002730@gmail.com or m42cai@uwaterloo.ca
+
 
 Static datasource (in directory archive): https://www.kaggle.com/datasets/gpreda/reddit-wallstreetsbets-posts/data
 Dynamic datasource: Reddit API
